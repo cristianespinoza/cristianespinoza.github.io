@@ -1,2 +1,17 @@
-# cristianespinoza.github.io
-cristianespinoza.github.io
+# Source code for https://cristianespinoza.github.io
+
+### Usage
+
+```
+npm install
+npm start
+Open http://localhost:5000
+```
+
+### Linting
+
+ESLint with React linting options have been enabled.
+
+```
+npm run lint
+```
