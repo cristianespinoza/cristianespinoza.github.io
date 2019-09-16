@@ -5,19 +5,16 @@ export default class CurrentProject extends Component {
 		return (
 			<article className="post">
 				<h2>Current project</h2>
-				<a href="https://appdirect.com" className="image main"><img src="static/images/pic01.jpg" alt="" /></a>
-				<h2>Front-End engineer @ AppDirect inc.</h2>
-				<p>
-					I'm part of the AppMarket and AppReseller teams in Buenos Aires,
-					I develop features and interfaces for the AppDirect marketplace,
-					which sells and provisions software to millions of devices around the world.
-				</p>
+				<a href="https://appdirect.com" className="image main"><img src="static/images/picepam.jpg" alt="" /></a>
+				<h2>Lead Software Engineer @ Epam Systems PL</h2>
+				<p>Leading a team of software engineers, developing solutions for various international clients, using the latest Frontend technologies (React, Node)</p>
+				<p>Resource Management: Interviewing, hiring, promotions, people management, overseeing other developers' career growth.</p>
 				<div className="row">
 					<div className="6u 12u$(small)">
 						<h3>Responsibilities</h3>
 						<ul>
-							<li>Programming: Javascript</li>
-							<li>Feature briefing / technical designs.</li>
+							<li>Programming</li>
+							<li>Team & People Management</li>
 						</ul>
 					</div>
 					<div className="6u 12u$(small)">
@@ -25,7 +22,7 @@ export default class CurrentProject extends Component {
 						<ul>
 							<li>Javascript / Ecmascript 6</li>
 							<li>ReactJS, Redux, Saga</li>
-							<li>Backbone, Marionette</li>
+							<li>VueJS</li>
 						</ul>
 					</div>
 				</div>

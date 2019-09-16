@@ -8,8 +8,8 @@ export default class Main extends Component {
 			<div id="main">
 				<article className="post featured">
 					<header className="major">
-						<h2>Senior Web Developer</h2>
-						<p>12+ years programming experience.</p>
+						<h2>Lead Software Engineer</h2>
+						<p>14+ years programming experience.</p>
 						<p>Technology enthusiast, interested in challenging and rare problems.</p>
 					</header>
 				</article>

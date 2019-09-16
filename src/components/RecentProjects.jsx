@@ -5,11 +5,29 @@ export default class RecentProjects extends Component {
 	render() {
 		return (
 			<section className="posts">
+			<OneProject
+				date="2017 - 2018"
+				url="https://www.appdirect.com/"
+				title="AppDirect"
+				image="static/images/picappdirect.jpg"
+			>
+				<div>
+					<p>
+						Front-End engineer @ AppDirect inc.
+						<br />
+						Developed features and interfaces for the AppDirect marketplace,
+						which sells and provisions software to millions of devices around the world.
+					</p>
+					<p>
+						Technologies: Javascript / Ecmascript 6, ReactJS, Redux, Saga, Backbone, Marionette
+					</p>
+				</div>
+			</OneProject>
 				<OneProject
 					date="2013 - 2017"
 					url="https://www.casablancapolo.com/bespoke/"
 					title="CASABLANCA BESPOKE"
-					image="static/images/pic02.jpg"
+					image="static/images/piccasablancabespoke.jpg"
 				>
 					<div>
 						<p>
@@ -29,7 +47,7 @@ export default class RecentProjects extends Component {
 					date="2013 - 2017"
 					url="https://www.casablancapolo.com/america/home"
 					title="CASABLANCA POLO"
-					image="static/images/pic03.jpg"
+					image="static/images/piccasablanca.jpg"
 				>
 					<div>
 						<p>
@@ -49,7 +67,7 @@ export default class RecentProjects extends Component {
 					date="2015"
 					url="https://www.casablancapolo.com"
 					title="Point of Sale System"
-					image="static/images/pic04.jpg"
+					image="static/images/picpos.jpg"
 				>
 					<div>
 						<p>
@@ -65,7 +83,7 @@ export default class RecentProjects extends Component {
 					date="2010-2013"
 					url="https://intermediasp.com/"
 					title="IntermediaSP"
-					image="static/images/pic05.jpg"
+					image="static/images/picintermedia.jpg"
 				>
 					<div>
 						<p>
